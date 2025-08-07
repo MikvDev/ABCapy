@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+
+}
+
+
+.main_pageLogin {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 100vh;
+    text-align: center;
+}
