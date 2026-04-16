@@ -66,3 +66,8 @@ container-start-page .btn{
     font-size: 2em;
     transition: 0.5s ease-in-out;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
