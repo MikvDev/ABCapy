@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/assets/fonts/Poppins-Bold.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+    text-transform: uppercase;
+
+}
+
+header {
+  background-color: #a8daff;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  align-items: center;
+}
+button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  align-items: center;
+  background-color: #69b9f7;
+  color: rgb(255, 255, 255);
+}
+.question {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 10px;
+  height: 130px;
+  flex-direction: column;
+  color: #297ab8;
+  padding: 30px;
+}
+
+.question img {
+  width: 250px;
+  padding: 20px;
+}
+
+body {
+  background-image: url(/assets/images/img-jogos/jogos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardsJogos {
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.card-1, .card-2, .card-3 {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 110px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.11),
+    0 5px 2px rgba(31, 30, 30, 0.219);
+  margin-top: 20px;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: 'Poppins';
+ color: #297ab8;
+}
+
+.card-1 img {
+  width: 200px;
+  height: 75px;
+  display: flex;
+  
+}
