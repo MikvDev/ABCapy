@@ -48,7 +48,9 @@
 .container-input input {
     border: none;
     margin-left: 17px;
-    
+    outline: none;
+    background: transparent
+    ;
     justify-content:start;
 }
 .container-input:first-of-type {
