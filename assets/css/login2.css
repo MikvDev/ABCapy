@@ -18,6 +18,7 @@
     --cor-azul-claro: #93CCF7;
     --cor-branca: #FCFEFF;
     --poppins: 'poppins', sans-serif;
+}
 body {
     background-image: url(/assets/images/LOGIN\ \(1\).png);
     background-size: cotain;
@@ -75,7 +76,7 @@ align-items: center;
 #container-selecionada img {
     margin-top: 25px;
 }
-}
+
 
 #container-acessorios {
     display: grid;
