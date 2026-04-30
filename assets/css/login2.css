@@ -20,33 +20,47 @@
     --poppins: 'poppins', sans-serif;
 body {
     background-image: url(/assets/images/LOGIN\ \(1\).png);
-    background-size: cover;
-    ];
+    background-size: cotain;
+    ;
+    text-align: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
 #container-escolha-personagem {
-    
+    margin-top: 25px;
     background-position: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    gap: 46px;
 
 }
+#container-escolha-personagem h3{
+    color: #297AB8;
+    font-weight: 790;
+    padding: 20px;
+}
 #container-escolha-personagem {
-display: flex
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 
 
 }
 #container-personagens  {
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+#container-escolha-personagem img {
+    width: 100%;
+    height: auto;
+}
 #container-acessorios {
-    margin-top: 359px;
+    margin-top: 59px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -54,4 +68,33 @@ display: flex
 }
 #container-selecionada{
     margin-top: 121px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-selecionada img {
+    margin-top: 25px;
+}
+}
+
+#container-acessorios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 400px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--cor-azul-claro);
 }
